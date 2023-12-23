@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:futsoul_merchant/utils/custom_text_styles.dart';
+import 'package:futsoul_merchant/utils/constants/custom_text_styles.dart';
 import 'package:get/get.dart';
 
 class CustomAppBar extends StatelessWidget with PreferredSizeWidget {

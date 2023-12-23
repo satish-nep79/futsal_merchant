@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_merchant/controller/booking/new_booking_controller.dart';
-import 'package:futsoul_merchant/utils/custom_text_styles.dart';
-import 'package:futsoul_merchant/utils/date_time_helper.dart';
-import 'package:futsoul_merchant/utils/validators.dart';
+import 'package:futsoul_merchant/utils/constants/custom_text_styles.dart';
+import 'package:futsoul_merchant/utils/helpers/date_time_helper.dart';
+import 'package:futsoul_merchant/utils/helpers/validators.dart';
 import 'package:futsoul_merchant/widget/custom/custom_appbar.dart';
 import 'package:futsoul_merchant/widget/custom/custome_textfield.dart';
 import 'package:futsoul_merchant/widget/custom/elevated_button.dart';

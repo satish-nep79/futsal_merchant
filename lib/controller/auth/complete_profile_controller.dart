@@ -5,15 +5,15 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:futsoul_merchant/controller/core_controller.dart';
 import 'package:futsoul_merchant/repo/auth/complete_profile_repo.dart';
-import 'package:futsoul_merchant/utils/custom_snackbar.dart';
-import 'package:futsoul_merchant/utils/extension.dart';
+import 'package:futsoul_merchant/utils/helpers/custom_snackbar.dart';
+import 'package:futsoul_merchant/utils/helpers/extension.dart';
 import 'package:futsoul_merchant/views/dashboard/dash_screen.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:simple_fontellico_progress_dialog/simple_fontico_loading.dart';
 
-import '../../utils/storage_keys.dart';
+import '../../utils/constants/storage_keys.dart';
 
 class CompleteProfileController extends GetxController {
   final formKey = GlobalKey<FormState>();

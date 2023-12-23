@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:futsoul_merchant/controller/core_controller.dart';
 import 'package:futsoul_merchant/widget/custom/custom_appbar.dart';
 import 'package:get/get.dart';
-import 'package:get/utils.dart';
 
 class ChangeThemeScreen extends StatelessWidget {
   static const String routeName = "/change-theme";

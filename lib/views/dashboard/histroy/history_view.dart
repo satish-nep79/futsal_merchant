@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_merchant/controller/dashboard/history_controller.dart';
-import 'package:futsoul_merchant/utils/colors.dart';
-import 'package:futsoul_merchant/utils/custom_text_styles.dart';
+import 'package:futsoul_merchant/utils/constants/colors.dart';
+import 'package:futsoul_merchant/utils/constants/custom_text_styles.dart';
 import 'package:futsoul_merchant/views/dashboard/histroy/active_view.dart';
 import 'package:futsoul_merchant/views/dashboard/histroy/past_booking.dart';
 import 'package:futsoul_merchant/views/dashboard/new_booking.dart';

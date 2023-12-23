@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:futsoul_merchant/utils/colors.dart';
+import 'package:futsoul_merchant/utils/constants/colors.dart';
 import 'package:get/get.dart';
 
 class CustomSnackBar {

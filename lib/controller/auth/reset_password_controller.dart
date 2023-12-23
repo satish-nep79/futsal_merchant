@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_merchant/repo/auth/forget_password_repo.dart';
-import 'package:futsoul_merchant/utils/custom_snackbar.dart';
+import 'package:futsoul_merchant/utils/helpers/custom_snackbar.dart';
 import 'package:get/get.dart';
 import 'package:simple_fontellico_progress_dialog/simple_fontico_loading.dart';
 

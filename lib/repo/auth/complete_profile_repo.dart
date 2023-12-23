@@ -3,12 +3,12 @@ import 'dart:developer';
 import 'dart:io';
 
 import 'package:futsoul_merchant/models/user.dart';
-import 'package:futsoul_merchant/utils/api.dart';
-import 'package:futsoul_merchant/utils/storage_keys.dart';
+import 'package:futsoul_merchant/utils/constants/api.dart';
+import 'package:futsoul_merchant/utils/constants/storage_keys.dart';
 import 'package:http/http.dart' as http;
 import 'package:http_parser/http_parser.dart';
 
-import 'package:futsoul_merchant/utils/http_request.dart';
+import 'package:futsoul_merchant/utils/helpers/http_request.dart';
 
 class CompleteProfileRepo {
   static Future<void> completeProfile(
@@ -58,7 +58,7 @@ class CompleteProfileRepo {
       http.StreamedResponse response = await HttpRequest.multiPart(request);
       var data = json.decode(await response.stream.bytesToString());
 
-      log("${data}");
+      log("$data");
       if (data["status"] as bool) {
         User user = User.fromJson(data["data"]);
         onSuccess(user, data['message']);

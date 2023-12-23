@@ -3,12 +3,12 @@ import 'dart:developer';
 
 
 import 'package:futsoul_merchant/models/access_token.dart';
-import 'package:futsoul_merchant/utils/api.dart';
+import 'package:futsoul_merchant/utils/constants/api.dart';
 
 import '../../models/user.dart';
 import 'package:http/http.dart' as http;
 
-import '../../utils/http_request.dart';
+import '../../utils/helpers/http_request.dart';
 
 class LoginRepo {
   static Future<void> login({

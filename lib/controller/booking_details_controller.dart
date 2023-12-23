@@ -1,7 +1,7 @@
 import 'package:futsoul_merchant/controller/dashboard/history_controller.dart';
 import 'package:futsoul_merchant/models/booking.dart';
 import 'package:futsoul_merchant/repo/booking/booking_repo.dart';
-import 'package:futsoul_merchant/utils/custom_snackbar.dart';
+import 'package:futsoul_merchant/utils/helpers/custom_snackbar.dart';
 import 'package:get/get.dart';
 import 'package:simple_fontellico_progress_dialog/simple_fontico_loading.dart';
 

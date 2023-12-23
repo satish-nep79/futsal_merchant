@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:futsoul_merchant/controller/dashboard/profile/off_days_controller.dart';
 import 'package:futsoul_merchant/repo/off_days_repo.dart';
-import 'package:futsoul_merchant/utils/custom_snackbar.dart';
-import 'package:futsoul_merchant/utils/extension.dart';
+import 'package:futsoul_merchant/utils/helpers/custom_snackbar.dart';
+import 'package:futsoul_merchant/utils/helpers/extension.dart';
 import 'package:get/get.dart';
 import 'package:simple_fontellico_progress_dialog/simple_fontico_loading.dart';
 

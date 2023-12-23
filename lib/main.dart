@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_merchant/controller/core_controller.dart';
-import 'package:futsoul_merchant/utils/pages.dart';
-import 'package:futsoul_merchant/utils/theme.dart';
+import 'package:futsoul_merchant/utils/config/pages.dart';
+import 'package:futsoul_merchant/utils/config/theme.dart';
 import 'package:futsoul_merchant/views/splash_screen.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';

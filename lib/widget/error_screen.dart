@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:futsoul_merchant/utils/colors.dart';
-import 'package:futsoul_merchant/utils/custom_text_styles.dart';
-import 'package:futsoul_merchant/utils/image_path.dart';
+import 'package:futsoul_merchant/utils/constants/colors.dart';
+import 'package:futsoul_merchant/utils/constants/custom_text_styles.dart';
+import 'package:futsoul_merchant/utils/constants/image_path.dart';
 
 class ErrorScreen extends StatelessWidget {
   const ErrorScreen({

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_merchant/models/off_day.dart';
-import 'package:futsoul_merchant/utils/date_time_helper.dart';
+import 'package:futsoul_merchant/utils/helpers/date_time_helper.dart';
 import 'package:futsoul_merchant/widget/row/data_row.dart';
 
 class OffDayRow extends StatelessWidget {

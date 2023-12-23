@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_merchant/controller/dashboard/profile/off_days_controller.dart';
-import 'package:futsoul_merchant/utils/colors.dart';
+import 'package:futsoul_merchant/utils/constants/colors.dart';
 import 'package:futsoul_merchant/views/add_off_days.dart';
 import 'package:futsoul_merchant/widget/custom/custom_appbar.dart';
 import 'package:futsoul_merchant/widget/error_screen.dart';
@@ -14,7 +14,6 @@ class OffDaysScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var theme = Theme.of(context);
     return Scaffold(
       appBar: const CustomAppBar(title: "Off Days"),
       floatingActionButton: FloatingActionButton(

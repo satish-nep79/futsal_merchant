@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:futsoul_merchant/controller/dashboard/profile/profile_controller.dart';
-import 'package:futsoul_merchant/utils/colors.dart';
-import 'package:futsoul_merchant/utils/custom_text_styles.dart';
-import 'package:futsoul_merchant/utils/image_path.dart';
+import 'package:futsoul_merchant/utils/constants/colors.dart';
+import 'package:futsoul_merchant/utils/constants/custom_text_styles.dart';
+import 'package:futsoul_merchant/utils/constants/image_path.dart';
 import 'package:futsoul_merchant/views/dashboard/profile/change_password_screen.dart';
 import 'package:futsoul_merchant/views/dashboard/profile/change_theme_screen.dart';
 import 'package:futsoul_merchant/views/dashboard/profile/edit_profile_screen.dart';

@@ -3,11 +3,11 @@ import 'dart:developer';
 
 import 'package:futsoul_merchant/models/time_slot.dart';
 import 'package:futsoul_merchant/models/user.dart';
-import 'package:futsoul_merchant/utils/http_request.dart';
-import 'package:futsoul_merchant/utils/storage_keys.dart';
+import 'package:futsoul_merchant/utils/helpers/http_request.dart';
+import 'package:futsoul_merchant/utils/constants/storage_keys.dart';
 import 'package:http/http.dart' as http;
 
-import '../../utils/api.dart';
+import '../../utils/constants/api.dart';
 
 class FutsalRepo {
   static Future<void> getFutsalDetails({

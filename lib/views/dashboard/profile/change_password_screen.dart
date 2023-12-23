@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:futsoul_merchant/utils/validators.dart';
+import 'package:futsoul_merchant/utils/helpers/validators.dart';
 import 'package:futsoul_merchant/widget/custom/custom_appbar.dart';
 import 'package:futsoul_merchant/widget/custom/custom_password_fields.dart';
 import 'package:futsoul_merchant/widget/custom/elevated_button.dart';

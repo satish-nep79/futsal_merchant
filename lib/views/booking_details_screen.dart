@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:futsoul_merchant/controller/booking_details_controller.dart';
-import 'package:futsoul_merchant/utils/colors.dart';
-import 'package:futsoul_merchant/utils/custom_text_styles.dart';
-import 'package:futsoul_merchant/utils/date_time_helper.dart';
-import 'package:futsoul_merchant/utils/image_path.dart';
+import 'package:futsoul_merchant/utils/constants/colors.dart';
+import 'package:futsoul_merchant/utils/constants/custom_text_styles.dart';
+import 'package:futsoul_merchant/utils/helpers/date_time_helper.dart';
+import 'package:futsoul_merchant/utils/constants/image_path.dart';
 import 'package:futsoul_merchant/views/dashboard/dash_screen.dart';
 import 'package:futsoul_merchant/widget/custom/custom_appbar.dart';
 import 'package:futsoul_merchant/widget/custom/dotted_line.dart';

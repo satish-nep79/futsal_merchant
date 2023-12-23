@@ -3,9 +3,9 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:futsoul_merchant/models/off_day.dart';
-import 'package:futsoul_merchant/utils/api.dart';
-import 'package:futsoul_merchant/utils/http_request.dart';
-import 'package:futsoul_merchant/utils/storage_keys.dart';
+import 'package:futsoul_merchant/utils/constants/api.dart';
+import 'package:futsoul_merchant/utils/helpers/http_request.dart';
+import 'package:futsoul_merchant/utils/constants/storage_keys.dart';
 import 'package:http/http.dart' as http;
 
 class OffDyasRepo{

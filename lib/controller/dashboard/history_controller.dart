@@ -24,6 +24,7 @@ class HistoryController extends GetxController {
   final ScrollController pastScrollController = ScrollController();
 
 
+  @override
   void onInit() {
     getActiveBooking();
     getPastBooking();

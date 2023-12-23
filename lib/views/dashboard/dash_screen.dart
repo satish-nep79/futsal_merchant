@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_merchant/controller/dashboard/dash_controller.dart';
-import 'package:futsoul_merchant/utils/colors.dart';
-import 'package:futsoul_merchant/utils/image_path.dart';
+import 'package:futsoul_merchant/utils/constants/image_path.dart';
 import 'package:futsoul_merchant/views/dashboard/drawer_screen.dart';
 import 'package:futsoul_merchant/widget/custom/custom_bottom_nav_icon.dart';
 import 'package:get/get.dart';

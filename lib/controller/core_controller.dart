@@ -2,7 +2,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:futsoul_merchant/models/user.dart';
-import 'package:futsoul_merchant/utils/storage_keys.dart';
+import 'package:futsoul_merchant/utils/constants/storage_keys.dart';
 import 'package:futsoul_merchant/views/auth/login_screen.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
